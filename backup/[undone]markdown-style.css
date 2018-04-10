@@ -1,0 +1,57 @@
+/* 通用 */
+*,
+*:before,
+*:after{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family:'PT Sans',Helvetica,Verdana,Tahoma,Arial,/*冬青黑体*/'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+
+p,/* 正文 */
+ul,ol,/* 列表 */
+table,thead,tbody/* 表格 */
+{
+    font-size: 16px;
+    font-family:'PT Sans',Helvetica,Verdana,Tahoma,Arial,/*冬青黑体*/'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+
+/* 标题 */
+h1,h2,h3,h4,h5,h6{
+    font-family:'PT Serif','Times New Roman',/*欧体楷书*/OutaiKaiStd-Light,/*宋体*/SimSun,serif;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 22px;
+}
+h6{
+    font-size: 20px;
+}
+/* 引用 */
+blockquote{
+    font-size: 16px;
+    /* 背景颜色 */
+}
+/* 代码 */
+pre,code{
+    font-size: 14px;
+    font-family:'PT Mono',Monaco,'Courier New',Courier,'Microsoft YaHei',monospace;
+    page-break-inside: avoid;
+}
+/* 引用 */
+blockquote{
+    font-size: 14px;
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
